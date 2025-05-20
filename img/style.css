@@ -1,0 +1,22 @@
+.hero {
+    position: relative;
+    padding: 6rem 2rem;
+    text-align: center;
+    color: white;
+    background: 
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+      url('img/colegio-fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .hero .contenido {
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparente para mejorar legibilidad */
+    padding: 2rem 2rem;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  }
+  
